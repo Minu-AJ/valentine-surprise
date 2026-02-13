@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For My Love ❤️</title>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', sans-serif;
+        text-align: center;
+        color: white;
+        background: linear-gradient(-45deg, #ff758c, #ff7eb3, #ff9a9e, #fad0c4);
+        background-size: 400% 400%;
+        animation: gradientMove 10s ease infinite;
+    }
+
+    @keyframes gradientMove {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    .container {
+        margin-top: 150px;
+    }
+
+    h1 {
+        font-size: 42px;
+        text-shadow: 0 0 10px #fff, 0 0 20px #ff4d6d;
+    }
+
+    button {
+        margin-top: 30px;
+        padding: 14px 30px;
+        font-size: 18px;
+        border: none;
+        border-radius: 30px;
+        background-color: white;
+        color: #ff4d6d;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #ff4d6d;
+        color: white;
+        transform: scale(1.1);
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Happy Valentine's Day, MY LOVE ❤️</h1>
+        <p>I have something special for you…</p>
+
+        <button onclick="goNext()">Open My Heart 💌</button>
+    </div>
+
+    <script>
+        function goNext() {
+            window.location.href = "message.html";
+        }
+    </script>
+
+</body>
+</html>
